@@ -1,9 +1,11 @@
 #Crank MVVM
 ##Install Using:
-	PM> Install-Package Crank.MVVM
-##Features
+    PM> Install-Package Crank.MVVM
+##NuGet Page:
+[Crank.MVVM](https://www.nuget.org/packages/Crank.MVVM)
+##Features:
 ####No Magic Strings When Binding Properties
-	private string _title;
+    private string _title;
     public string Title
     {
     	get { return _title; }
@@ -14,7 +16,7 @@
         }
     }
 ####View Model Locator
-	var example = VMLocator.OtherVM.MyProperty;
+    var example = VMLocator.OtherVM.MyProperty;
 ####Simple Commands
     private RelayCommand _testCommand;
     public ICommand TestCommand
