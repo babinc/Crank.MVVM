@@ -4,6 +4,6 @@
         Title="{Binding Title}" Height="385" Width="525" 
         DataContext="{Binding Main, Mode=OneWay, Source={StaticResource Locator}}">
     <Grid Margin="10">
-
+        <Button Content="Test Command" Command="{Binding TestCommand}" Height="50" Width="100"/>
     </Grid>
 </Window>

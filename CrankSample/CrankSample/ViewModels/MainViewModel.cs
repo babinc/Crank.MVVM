@@ -56,7 +56,7 @@ namespace CrankSample.ViewModels
 
         private void TestExecute(object obj)
         {
-            
+            System.Windows.MessageBox.Show("Test Command");
         }
         #endregion
     }
