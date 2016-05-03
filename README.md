@@ -5,6 +5,7 @@
 [Crank.MVVM](https://www.nuget.org/packages/Crank.MVVM)
 ##Features:
 ####No Magic Strings When Binding Properties
+```C#
     private string _title;
     public string Title
     {
@@ -15,9 +16,13 @@
             base.RaisePropertyChanged(() => Title);
         }
     }
+```
 ####View Model Locator
+```C#
     var example = VMLocator.OtherVM.MyProperty;
+```
 ####Simple Commands
+```C#
     private RelayCommand _testCommand;
     public ICommand TestCommand
     {
@@ -40,3 +45,4 @@
     {
          
     }
+```
